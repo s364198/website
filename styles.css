@@ -3,12 +3,6 @@ img {
   float: right;
 }
 
-h2 {
-  float: left;
-  text-align: center;
-}
-
-p {
-  float: left;
-  text-align: center;
+container {
+  vertical-align: centre;
 }
