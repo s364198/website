@@ -4,5 +4,43 @@ img {
 }
 
 body {
-  background-color: ##FFFEEB;
+  margin: 0;
+  font-family: , sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  color: #538083;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #385557;
+}
+
+.topnav a.active {
+  color: #385557;
+}
+.topnav a.split {
+  float: right;
+  background-color: white;
+  color: #538083;
+}
+
+.container {
+  text-align: center;
+  margin-top: 290px;
+}
+
+.container2 {
+  text-align: center;
+  margin-top: 575px;
 }
