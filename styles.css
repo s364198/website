@@ -39,7 +39,7 @@ body {
   position: static;
   text-align: center;
   margin-top: 290px;
-  margin-bottom: 290px;
+  margin-bottom: 600px;
 }
 
 .container2 {
@@ -60,21 +60,24 @@ body {
 .row {
   display: flex;
 }
+ * {
+  box-sizing: border-box;
+}
 
-            * {
-              box-sizing: border-box;
-            }
+.row {
+  display: flex;
+}
+.column {
+  position: relative;
+  flex: 33.33%;
+ padding: 5px;
+}
 
-            .row {
-              display: flex;
-            }
-            .column {
-              position: relative;
-              flex: 33.33%;
-              padding: 5px;
-            }
+.headings {
+  text-align: center;
+  margin-top: 30px;
+} 
 
-/*.container {
-  margin-top: 50%;
-  width: 100%;
-}*/
+.recents {
+  float: right;
+}
