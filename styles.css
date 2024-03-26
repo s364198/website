@@ -93,4 +93,15 @@ footer {
 
 div {
   background-color: #FFFEEB;
+  font-family: "Playfair Display";
+}
+
+.product {
+  width: 50%;
+  float: left;
+}
+
+.container4 {
+  position: static;
+  text-align: center;
 }
