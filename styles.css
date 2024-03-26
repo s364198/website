@@ -6,16 +6,17 @@ img {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #FFFDD0;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: white;
+  background-color: #FFFEEB;
 }
 
 .topnav a {
   float: left;
-  color: #538083;
+  color: #BCBD8B;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,23 +24,23 @@ body {
 }
 
 .topnav a:hover {
-  color: #385557;
+  color: #BCBD8B;
 }
 
 .topnav a.active {
-  color: #385557;
+  color: lightpink;
 }
 .topnav a.split {
   float: right;
-  background-color: white;
-  color: #538083;
+  background-color: #FFFEEB;
+  color: #BCBD8B;
 }
 
 .container {
   position: static;
   text-align: center;
   margin-top: 290px;
-  margin-bottom: 600px;
+  margin-bottom: 370px;
 }
 
 .container2 {
@@ -81,4 +82,15 @@ body {
 .recents {
   float: right;
   padding: 35px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: lightpink;
+  color: white;
+}
+
+div {
+  background-color: #FFFEEB;
 }
