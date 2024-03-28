@@ -16,15 +16,16 @@ body {
 
 .topnav a {
   float: left;
-  color: #BCBD8B;
+  color: #ACAD71;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: "Playfair Display";
 }
 
 .topnav a:hover {
-  color: #BCBD8B;
+  color: #ACAD71;
 }
 
 .topnav a.active {
@@ -33,7 +34,7 @@ body {
 .topnav a.split {
   float: right;
   background-color: #FFFEEB;
-  color: #BCBD8B;
+  color: #ACAD71;
 }
 
 
@@ -49,8 +50,6 @@ body {
   margin-top: 575px;
 }
 
-.imgpair {
-}
 
 .column {
   float: left;
@@ -87,13 +86,21 @@ body {
 
 footer {
   text-align: center;
-  padding: 20px;
-  background-color: lightpink;
-  color: white;
+  padding: 25px;
+  background-color: #FFFEEB;
+  color: black;
+  font-family: "Playfair Display";
 }
 
 div {
   background-color: #FFFEEB;
+}
+
+h2 {
+  font-family: "Playfair Display";
+}
+
+h5 {
   font-family: "Playfair Display";
 }
 
@@ -106,3 +113,19 @@ div {
   position: static;
   text-align: center;
 }
+
+.container7 {
+    margin-top: 3px;
+    margin-bottom: 6px;
+  }
+
+
+.btn btn-primary {
+  background-color: #ACAD71;
+}
+
+/*
+  .logo {
+    float: left;
+    width: 10%;
+  }*/
