@@ -6,7 +6,7 @@ img {
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: #FFFDD0;
+  background-color: #FFFEEB;
 }
 
 .topnav {
@@ -38,7 +38,7 @@ body {
 }
 
 
-.container {
+.container1 {
   position: static;
   text-align: center;
   margin-top: 290px;
@@ -92,9 +92,9 @@ footer {
   font-family: "Playfair Display";
 }
 
-div {
+/*div {
   background-color: #FFFEEB;
-}
+}*/
 
 h2 {
   font-family: "Playfair Display";
@@ -129,3 +129,9 @@ h5 {
     float: left;
     width: 10%;
   }*/
+
+
+    .container {
+    margin-top: 3px;
+    margin-bottom: 6px;
+  }
