@@ -25,11 +25,11 @@ body {
 }
 
 .topnav a:hover {
-  color: #ACAD71;
+  color: #lightpink;
 }
 
 .topnav a.active {
-  color: lightpink;
+  color: #ACAD71;
 }
 .topnav a.split {
   float: right;
@@ -81,7 +81,7 @@ body {
 
 .recents {
   float: right;
-  padding: 35px;
+  padding: 27px;
 }
 
 footer {
@@ -92,15 +92,15 @@ footer {
   font-family: "Playfair Display";
 }
 
-/*div {
+div {
   background-color: #FFFEEB;
-}*/
+}
 
 h2 {
   font-family: "Playfair Display";
 }
 
-h5 {
+h4 {
   font-family: "Playfair Display";
 }
 
