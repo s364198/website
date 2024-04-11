@@ -71,7 +71,7 @@ body {
 .column {
   position: relative;
   flex: 33.33%;
- padding: 5px;
+  padding: 5px;
 }
 
 .headings {
@@ -99,7 +99,9 @@ div {
 h2 {
   font-family: "Playfair Display";
 }
-
+h3 {
+  font-family: "Playfair Display";
+}
 h4 {
   font-family: "Playfair Display";
 }
@@ -124,14 +126,47 @@ h4 {
   background-color: #ACAD71;
 }
 
-/*
-  .logo {
-    float: left;
-    width: 10%;
-  }*/
+
+.logo {
+    float: static;
+    width: 3%;
+    padding: 5px;
+  }
+
+.logofacebook {
+    float: static;
+    width: 4%;
+    padding: 5px;
+  }
 
 
     .container {
     margin-top: 3px;
     margin-bottom: 6px;
   }
+
+  .links:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ .links:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .links:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+ .links:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ .shop{
+  padding:5px;
+ }
