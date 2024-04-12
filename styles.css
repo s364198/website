@@ -82,6 +82,7 @@ body {
 .recents {
   float: right;
   padding: 28px;
+  padding bottom: 5px;
 }
 
 footer {
