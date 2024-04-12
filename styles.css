@@ -81,7 +81,7 @@ body {
 
 .recents {
   float: right;
-  padding: 27px;
+  padding: 28px;
 }
 
 footer {
@@ -127,18 +127,19 @@ h4 {
 }
 
 
-.logo {
+.logo1 {
     float: static;
     width: 3%;
     padding: 5px;
+    margin-left: auto;
+    margin-right: 47%;
   }
-
-.logofacebook {
+  .logo2 {
     float: static;
-    width: 4%;
+    width: 3%;
     padding: 5px;
+    margin-left: auto;
   }
-
 
     .container {
     margin-top: 3px;
@@ -170,3 +171,4 @@ h4 {
  .shop{
   padding:5px;
  }
+
