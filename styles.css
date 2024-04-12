@@ -172,3 +172,15 @@ h4 {
   padding:5px;
  }
 
+ .card-img {
+  width: 25%;
+  margin-right: 25%;
+  padding: 5px;
+ }
+
+ .card-img1 {
+  width: 25%;
+  margin-left: 25%;
+ padding: 5px;
+ }
+
